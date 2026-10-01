@@ -11,6 +11,6 @@
 }
 
 .content-heading.align-right {
-    order: 1;
-    text-align: right;
+    order: 0;
+    text-align: left;
 }

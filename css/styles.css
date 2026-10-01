@@ -1,5 +1,29 @@
 body {
-    background-color: #901cad;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+:root {
+    --primary-color: #4661f8;
+    --header-gradient-start: #5637DD;
+    --header-gradient-end: #60106B;
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+header {
+    padding: 30px;
+    background-image: linear-gradient(to right, #5d745d, #5637DD, #3046C5, #60106B);
+    color: white;
+}
+
+header h2 {
+    color: #CEC8FF;
 }
 
 .content-container {
@@ -7,4 +31,33 @@ body {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-element {
+    align-self: flex-start;
+}
+
+@media (min-width: 576px) {
+    .row-content:first-child h2,
+    .row-content:last-child h2 {
+        text-align: right;
+    }
+}
+
+.footer-social {
+    text-align: center;
+}
+
+.footer-contact {
+    text-align: center;
 }
