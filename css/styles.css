@@ -61,3 +61,42 @@ header h2 {
 .footer-contact {
     text-align: center;
 }
+
+.navbar {
+    background-color: #901CAD;
+    padding: 0 15px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-list a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.navbar-list a:hover {
+    background-color: #ffffff1a;
+}
+
+.breadcrumb {
+    list-style: none;
+    display: flex;
+    padding: 8px 0;
+    margin: 0;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "/";
+    padding: 0 8px;
+    color: #6c757d;
+    
+}
