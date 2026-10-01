@@ -98,5 +98,8 @@ header h2 {
     content: "/";
     padding: 0 8px;
     color: #6c757d;
-    
+}
+
+.address {
+    font-style: normal;
 }
