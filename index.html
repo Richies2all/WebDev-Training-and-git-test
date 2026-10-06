@@ -25,12 +25,12 @@
             <div class="content-container">
                 <a href="index.html"><img src="img/logo.png" alt="Nucamp logo" /></a>
                 <div class="hero-text">
-                <h1>Nucamp</h1>
-                <h2>a better way to camp</h2>
-            </div>
+                    <h1>Nucamp</h1>
+                    <h2>a better way to camp</h2>
+                </div>
 
             <!--Reserve Campsite button-->
-            
+
             <div class="mt-4 ms-auto">
                 <a href="#reserveForm" class="btn btn-info btn-lg text-white text-nowrap">Reserve Campsite</a>
             </div>
@@ -64,7 +64,7 @@
         <div class="content-container">
             <!--discover section-->
             <div class="content-row">
-            <div class="content-heading align-right">
+                <div class="content-heading align-right">
                 <h2>Discover & Review</h2>
             </div>
             <div class="media-object">
@@ -75,7 +75,6 @@
                 </div>
             </div>
         </div>
-    </div>
 
             <!--feature section-->
             <div class="content-row">
@@ -85,11 +84,11 @@
                 <div class="d-flex align-items-center">
                     <div class="align-self-center">
                         <h3>React Lake Campground</h3>
-                        <p>Nestled in the foothills of the Chrome Mountains, this compound on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                        <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
                         </div>
-                        <img class="img-thumbnail ml-3" src="img/react-lake-thumb.jpg" alt="React Lake" />
-        </div>
-    </div>
+                        <img class="img-thumbnail ms-3" src="img/react-lake-thumb.jpg" alt="React Lake" />
+                    </div>
+                </div>
 
             <!--partner section-->
             <div class="content-row">
@@ -99,8 +98,8 @@
                 <div class="media-object">
                     <img class="thumbnail" src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
                     <div class="media-text">
-                <h3>Boostrap Oufitters</h3>
-                <p>Bootstrap Outfitters supplies you with gears you need at prices you can't beat.</p>
+                <h3>Bootstrap Oufitters</h3>
+                <p>Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
             </div>
         </div>
     </div>
@@ -108,29 +107,29 @@
 
 <!--Reservation Form-->
 <div class=" row row-content">
-        <div class="col-sm-9 mx-auto">
+        <div class="col-sm-6 mx-auto">
             <div class="card">
-                <h3 class="card-reader bg-info text-white">Reserve a Campsite</h3>
+                <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
                         <div class="card-body">
                             <form id="reserveForm">
                                 <div class="row mb-3">
-                                    <label for="numberofCamper" class="col-12 col-sm-6 col-form-label">Number of Camper</label>
-                                    <div class="col-12 col-sm-9">
+                                    <label for="numCampers" class="col-12 col-sm-6 col-form-label">Number of Campers</label>
+                                    <div class="col-12 col-sm-6">
                                         <select class="form-control" id="numCampers" name="numCampers">
                                             <option value="" disabled selected>Select...</option>
-                                            <option name="1" id="1">1</option>
-                                            <option name="2" id="2">2</option>
-                                            <option name="3" id="3">3</option>
-                                            <option name="4" id="4">4</option>
-                                            <option name="5" id="5">5</option>
-                                            <option name="6" id="6">6</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                            <label for="date" class="col-12 col-sm-9 col-form-label">Date</label>
-                            <div class="col-12 col-sm-9">
-                                <input type="date" class="form-control" id="date" name="date" />
+                            <label for="date" class="col-12 col-sm-6 col-form-label">Date</label>
+                            <div class="col-12 col-sm-6">
+                                <input type="date" class="form-control" id="date" name="date" placeholder="mm/dd/yyyy" />
                             </div>
                         </div>
                                 <div class="row">
