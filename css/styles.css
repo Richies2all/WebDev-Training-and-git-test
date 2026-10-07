@@ -109,3 +109,11 @@ header h2 {
     border: 1px solid #DDD;
     border-top: none;
 }
+
+.carousel-caption {
+    background-color: #00000080;
+}
+
+.carousel {
+    border: solid #5637DD;
+}
