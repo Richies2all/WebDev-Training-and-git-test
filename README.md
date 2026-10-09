@@ -3,7 +3,7 @@
 ## Nucamp Web Development Project
 A front-end web development project completed as part of the Nucamp Web Development Fundamentals coursework. The project provided hands-on practice with building and styling responsive websites using HTML, CSS, and Bootstrap, along with learning basic web deployment workflows.
 Course: Nucamp Web Development
-Sample Product: http://localhost:1234/
+Sample Product: https://richienumcampsite.web.app/
 
 ## 🚀 Project Overview
 This project was created to apply the concepts and development practices taught throughout the Nucamp course. It focuses on creating a structured, responsive, and visually consistent web interface using standard front-end technologies.
