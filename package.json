@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "A fictional campsites review website.",
   "source": "index.html",
-  
   "scripts": {
     "start": "parcel --open",
     "build": "parcel build"
@@ -12,6 +11,7 @@
   "author": "Richard",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
     "parcel": "^2.16.4"
   },
   "dependencies": {
