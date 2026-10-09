@@ -5,6 +5,7 @@ $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106D;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #17A2B8;
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "lobster", cursive;
@@ -37,8 +38,26 @@ header {
     align-items: center;
 }
 
+.footer-social {
+    text-align: center;
+}
+
+.footer-contact {
+    text-align: center;
+}
+
+.tab-content {
+    padding: 10px;
+    border: 1px solid #DDD;
+    border-top: none;
+}
+
 .navbar {
     background-color: $color-mid;
+}
+
+#nucampNavbar .navbar-text {
+    margin-left: auto;
 }
 
 .carousel {
@@ -48,3 +67,9 @@ header {
 .carousel-caption {
     background-color: $color-black-transparent;
 }
+
+/*import the patial 'modal scss' file to the style*/
+@import 'modal';
+
+/*import the patial 'review-section scss' file to the style*/
+@import 'review-section';
